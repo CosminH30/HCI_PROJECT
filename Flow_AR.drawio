@@ -1,0 +1,151 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.6.1">
+  <diagram name="Mobile Flow – Play &amp; Track a Game Session" id="rQK6Rs2yvIAdlmJT9HGo">
+    <mxGraphModel dx="2316" dy="1187" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="s5oxgQky0RCQW_92VW5P-155" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0f0f0;strokeColor=#333333;fontStyle=1;fontSize=14;" value="Home Screen" vertex="1">
+          <mxGeometry height="60" width="180" x="900" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="s5oxgQky0RCQW_92VW5P-156" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=13;" value="Game Hub" vertex="1">
+          <mxGeometry height="60" width="160" x="200" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="s5oxgQky0RCQW_92VW5P-157" edge="1" parent="1" source="s5oxgQky0RCQW_92VW5P-155" style="edgeStyle=orthogonalEdgeStyle;" target="s5oxgQky0RCQW_92VW5P-156" value="Go to Game Hub">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s5oxgQky0RCQW_92VW5P-158" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" value="New Page" vertex="1">
+          <mxGeometry height="50" width="140" x="20" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="s5oxgQky0RCQW_92VW5P-159" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" value="Library" vertex="1">
+          <mxGeometry height="50" width="140" x="180" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="s5oxgQky0RCQW_92VW5P-160" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" value="Refresh" vertex="1">
+          <mxGeometry height="50" width="140" x="340" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="s5oxgQky0RCQW_92VW5P-161" edge="1" parent="1" source="s5oxgQky0RCQW_92VW5P-156" style="edgeStyle=orthogonalEdgeStyle;" target="s5oxgQky0RCQW_92VW5P-158" value="New Page">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s5oxgQky0RCQW_92VW5P-162" edge="1" parent="1" source="s5oxgQky0RCQW_92VW5P-156" style="edgeStyle=orthogonalEdgeStyle;" target="s5oxgQky0RCQW_92VW5P-159" value="Open Library">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s5oxgQky0RCQW_92VW5P-163" edge="1" parent="1" source="s5oxgQky0RCQW_92VW5P-156" style="edgeStyle=orthogonalEdgeStyle;" target="s5oxgQky0RCQW_92VW5P-160" value="Refresh">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s5oxgQky0RCQW_92VW5P-164" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" value="Game Details" vertex="1">
+          <mxGeometry height="50" width="140" x="180" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="s5oxgQky0RCQW_92VW5P-165" edge="1" parent="1" source="s5oxgQky0RCQW_92VW5P-159" style="edgeStyle=orthogonalEdgeStyle;" target="s5oxgQky0RCQW_92VW5P-164" value="Select game">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s5oxgQky0RCQW_92VW5P-166" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" value="Overlay Settings" vertex="1">
+          <mxGeometry height="50" width="140" x="80" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="s5oxgQky0RCQW_92VW5P-167" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" value="Active Session&#xa;(AR Overlay)" vertex="1">
+          <mxGeometry height="50" width="140" x="280" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="s5oxgQky0RCQW_92VW5P-168" edge="1" parent="1" source="s5oxgQky0RCQW_92VW5P-164" style="edgeStyle=orthogonalEdgeStyle;" target="s5oxgQky0RCQW_92VW5P-166" value="Configure overlay">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s5oxgQky0RCQW_92VW5P-169" edge="1" parent="1" source="s5oxgQky0RCQW_92VW5P-164" style="edgeStyle=orthogonalEdgeStyle;" target="s5oxgQky0RCQW_92VW5P-167" value="Start AR session">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s5oxgQky0RCQW_92VW5P-170" edge="1" parent="1" source="s5oxgQky0RCQW_92VW5P-166" style="edgeStyle=orthogonalEdgeStyle;" target="s5oxgQky0RCQW_92VW5P-167" value="Launch AR session">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s5oxgQky0RCQW_92VW5P-171" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" value="Performance Log" vertex="1">
+          <mxGeometry height="50" width="140" x="280" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="s5oxgQky0RCQW_92VW5P-172" edge="1" parent="1" source="s5oxgQky0RCQW_92VW5P-167" style="edgeStyle=orthogonalEdgeStyle;" target="s5oxgQky0RCQW_92VW5P-171" value="End AR session">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s5oxgQky0RCQW_92VW5P-173" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" value="History" vertex="1">
+          <mxGeometry height="50" width="140" x="180" y="940" as="geometry" />
+        </mxCell>
+        <mxCell id="s5oxgQky0RCQW_92VW5P-174" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;" value="Match Details" vertex="1">
+          <mxGeometry height="50" width="140" x="450" y="940" as="geometry" />
+        </mxCell>
+        <mxCell id="s5oxgQky0RCQW_92VW5P-175" edge="1" parent="1" source="s5oxgQky0RCQW_92VW5P-171" style="edgeStyle=orthogonalEdgeStyle;" target="s5oxgQky0RCQW_92VW5P-173" value="View history">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s5oxgQky0RCQW_92VW5P-176" edge="1" parent="1" source="s5oxgQky0RCQW_92VW5P-173" style="edgeStyle=orthogonalEdgeStyle;" target="s5oxgQky0RCQW_92VW5P-174" value="Select match">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s5oxgQky0RCQW_92VW5P-177" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=13;" value="Ecosystem" vertex="1">
+          <mxGeometry height="60" width="160" x="900" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="s5oxgQky0RCQW_92VW5P-178" edge="1" parent="1" source="s5oxgQky0RCQW_92VW5P-155" style="edgeStyle=orthogonalEdgeStyle;" target="s5oxgQky0RCQW_92VW5P-177" value="Go to Ecosystem">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s5oxgQky0RCQW_92VW5P-179" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;" value="Pair a Device&#xa;(AR Headset)" vertex="1">
+          <mxGeometry height="50" width="150" x="580" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="s5oxgQky0RCQW_92VW5P-180" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;" value="AR Config" vertex="1">
+          <mxGeometry height="50" width="140" x="1060" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="s5oxgQky0RCQW_92VW5P-181" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;" value="Device Details" vertex="1">
+          <mxGeometry height="50" width="140" x="1180" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="s5oxgQky0RCQW_92VW5P-182" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;" value="Community Zone" vertex="1">
+          <mxGeometry height="50" width="140" x="700" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="s5oxgQky0RCQW_92VW5P-183" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;" value="Smartwatch Sync" vertex="1">
+          <mxGeometry height="50" width="140" x="870" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="s5oxgQky0RCQW_92VW5P-184" edge="1" parent="1" source="s5oxgQky0RCQW_92VW5P-177" style="edgeStyle=orthogonalEdgeStyle;" target="s5oxgQky0RCQW_92VW5P-179" value="Pair AR headset">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s5oxgQky0RCQW_92VW5P-185" edge="1" parent="1" source="s5oxgQky0RCQW_92VW5P-177" style="edgeStyle=orthogonalEdgeStyle;" target="s5oxgQky0RCQW_92VW5P-180" value="AR Config">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s5oxgQky0RCQW_92VW5P-186" edge="1" parent="1" source="s5oxgQky0RCQW_92VW5P-177" style="edgeStyle=orthogonalEdgeStyle;" target="s5oxgQky0RCQW_92VW5P-181" value="Device Details">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s5oxgQky0RCQW_92VW5P-187" edge="1" parent="1" source="s5oxgQky0RCQW_92VW5P-177" style="edgeStyle=orthogonalEdgeStyle;" target="s5oxgQky0RCQW_92VW5P-182" value="Community Zone">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s5oxgQky0RCQW_92VW5P-188" edge="1" parent="1" source="s5oxgQky0RCQW_92VW5P-177" style="edgeStyle=orthogonalEdgeStyle;" target="s5oxgQky0RCQW_92VW5P-183" value="Smartwatch Sync">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s5oxgQky0RCQW_92VW5P-189" edge="1" parent="1" source="s5oxgQky0RCQW_92VW5P-179" style="edgeStyle=orthogonalEdgeStyle;dashed=1;" target="s5oxgQky0RCQW_92VW5P-181" value="View details">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="775" y="460" />
+              <mxPoint x="1015" y="460" />
+              <mxPoint x="1015" y="415" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s5oxgQky0RCQW_92VW5P-190" edge="1" parent="1" source="s5oxgQky0RCQW_92VW5P-181" style="edgeStyle=orthogonalEdgeStyle;dashed=1;" target="s5oxgQky0RCQW_92VW5P-180" value="Configure AR">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s5oxgQky0RCQW_92VW5P-191" edge="1" parent="1" source="s5oxgQky0RCQW_92VW5P-180" style="edgeStyle=orthogonalEdgeStyle;dashed=1;" target="s5oxgQky0RCQW_92VW5P-183" value="Sync watch">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s5oxgQky0RCQW_92VW5P-192" edge="1" parent="1" source="s5oxgQky0RCQW_92VW5P-183" style="edgeStyle=orthogonalEdgeStyle;dashed=1;strokeColor=#9673a6;" target="s5oxgQky0RCQW_92VW5P-156" value="Go to Game Hub">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s5oxgQky0RCQW_92VW5P-193" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=13;" value="Settings" vertex="1">
+          <mxGeometry height="60" width="160" x="1500" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="s5oxgQky0RCQW_92VW5P-194" edge="1" parent="1" source="s5oxgQky0RCQW_92VW5P-155" style="edgeStyle=orthogonalEdgeStyle;" target="s5oxgQky0RCQW_92VW5P-193" value="Go to Settings">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s5oxgQky0RCQW_92VW5P-195" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;" value="User Profile" vertex="1">
+          <mxGeometry height="50" width="140" x="1340" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="s5oxgQky0RCQW_92VW5P-196" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;" value="Account Settings" vertex="1">
+          <mxGeometry height="50" width="140" x="1560" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="s5oxgQky0RCQW_92VW5P-197" edge="1" parent="1" source="s5oxgQky0RCQW_92VW5P-193" style="edgeStyle=orthogonalEdgeStyle;" target="s5oxgQky0RCQW_92VW5P-195" value="View profile">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s5oxgQky0RCQW_92VW5P-198" edge="1" parent="1" source="s5oxgQky0RCQW_92VW5P-193" style="edgeStyle=orthogonalEdgeStyle;" target="s5oxgQky0RCQW_92VW5P-196" value="Account settings">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s5oxgQky0RCQW_92VW5P-199" edge="1" parent="1" source="s5oxgQky0RCQW_92VW5P-195" style="edgeStyle=orthogonalEdgeStyle;dashed=1;" target="s5oxgQky0RCQW_92VW5P-196" value="Edit account">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
