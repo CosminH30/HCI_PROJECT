@@ -1,0 +1,39 @@
+{
+  "literatureReviews": [
+    {
+      "id": "0820fa8c-ab99-446d-9304-8a855cddc893",
+      "resourceName": "Distributed User Interfaces in Gaming (DUI)",
+      "resourceUrl": "https://www.sciencedirect.com/science/article/abs/pii/S1071581913001092",
+      "resourceInsights": "Offloading secondary UI (maps, stats) to peripheral devices (smartwatch/AR) reduces cognitive load on the primary screen. This allows the mobile phone to focus purely on gameplay while the AR headset expands the \"visual real-estate.\"",
+      "comments": "This supports the \"Second Screen\" feature. The user stays focused on the phone while the AR headset provides a dashboard in the physical space.",
+      "createdAt": "2026-02-26T08:28:51.414Z"
+    },
+    {
+      "id": "7b7b3a46-2d2d-43cf-8b94-14ab34c15052",
+      "resourceName": "Wrist-worn Haptics and Micro-interactions",
+      "resourceUrl": "https://academic.oup.com/jcr/article-abstract/47/2/256/5559276?redirectedFrom=PDF",
+      "resourceInsights": "Smartwatches are best for 2-4 second interactions. In gaming, this is ideal for quick stat checks notifications that don't require the player to look away from the main screen for long.",
+      "comments": "Use the Smartwatch component for \"Pulse\" notifications—quick vibrates and 1-second glances at stats.",
+      "createdAt": "2026-02-26T08:33:04.815Z"
+    },
+    {
+      "id": "fe35020e-a84a-4b42-b8ac-b2cca18e512b",
+      "resourceName": "Managing Attention Fragmentation in Multi-Screen Play",
+      "resourceUrl": "https://peerj.com/articles/cs-162/",
+      "resourceInsights": "Too many screens can lead to \"Attention Split.\" The UI must be hierarchical: Action (Phone) > Strategy (AR) > Status (Watch).",
+      "comments": "Gamar must ensure that the AR headset isn't too busy, or the user will get overwhelmed and take it off.",
+      "createdAt": "2026-02-26T08:34:27.016Z"
+    },
+    {
+      "id": "9128c4cc-e915-4c15-8b77-c88ba8e87c07",
+      "resourceName": "Cross-Modal Attention in Multi-Device Environments",
+      "resourceUrl": "https://link.springer.com/chapter/10.1007/978-3-032-00957-9_2",
+      "resourceInsights": "Headsets provide Spatial Audio which, when paired with AR visuals, creates a 360-degree information field. Research suggests that audio cues can effectively direct a user's eyes to a specific part of the AR overlay or the Smartwatch.",
+      "comments": "Since the user uses a headset, GAMAR should use 3D audio to tell them where to look",
+      "createdAt": "2026-02-26T08:45:50.877Z"
+    }
+  ],
+  "observationalResearch": [],
+  "competitiveAnalysis": [],
+  "userInterviews": []
+}
