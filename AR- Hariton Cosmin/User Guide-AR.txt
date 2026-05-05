@@ -1,0 +1,76 @@
+1. INTRODUCERE ȘI CONCEPT
+GAMAR este o platformă revoluționară de analiză a performanțelor pentru gameri, concepută special pentru mediile de Realitate Augmentată (AR). Spre deosebire de trackerele clasice care te obligă să folosești un al doilea ecran fizic sau să dai Alt-Tab în timpul jocului, GAMAR proiectează o interfață spațială tridimensională direct în camera ta.
+
+Informațiile plutesc ca un ecran HUD (Heads-Up Display) SF în jurul monitorului tău fizic, permițându-ți să monitorizezi statisticile din Fortnite sau Call of Duty dintr-o singură privire, folosind gesturi naturale ale mâinilor pentru navigare.
+
+2. PREGĂTIREA ȘI CALIBRAREA MEDIULUI (SETUP)
+Pentru a asigura o proiecție stabilă a hologramelor în camera ta, urmează acești pași de inițializare:
+
+Echiparea dispozitivului: Puneți ochelarii de Realitate Augmentată pe cap.
+
+Scanarea camerei: Priviți în stânga și în dreapta biroului. Senzorii spațiali vor detecta automat marginile monitorului fizic, suprafața biroului și tastatura.
+
+Calibrarea HUD-ului: Interfața GAMAR se va deschide automat, așezând ecranele plutitoare într-un arc de cerc confortabil în jurul câmpului tău vizual periferic.
+
+
+3. ARHITECTURA INTERFEȚEI (SITEMAP-UL VIZUAL)
+Interfața AR este modulară și este formată din 4 panouri holografice principale pe care le poți rearanja în spațiu:
+
+A. Home Dashboard (Zona Centrală - Deasupra monitorului)
+Ce afișează: Indicatorul de stare ONLINE, profilul tău activ (ProGamer), rangul tău (Diamond III) și selectorul rapid de jocuri (FORTNITE / CALL OF DUTY).
+
+Statistici rapide: Total Kills, Wins, K/D Ratio, Win Rate, numărul de meciuri jucate azi și timpul total de utilizare.
+
+B. Statistics (Zona Stângă - Periferic stânga)
+Ce afișează: Analiza profundă a stilului tău de joc.
+
+Sub-secțiuni: * Performance Overview: Acuratețea medie, damage-ul provocat, media de kill-uri per meci și durata medie a rundelor.
+
+Trends & Details: Grafice interactive care plutesc în aer și îți arată evoluția pe zile.
+
+C. Match History (Zona Dreaptă - Periferic dreapta)
+Ce afișează: Un carusel interactiv cu ultimele tale meciuri înregistrate.
+
+Detalii: Fiecare card arată rezultatul (ex. Victory Royale), poziția obținută, scorul de Kills/Deaths și durata meciului respectiv.
+
+D. Achievements (Zona Inferioară - Plutește deasupra tastaturii)
+Ce afișează: Progresul tău general (ex. 3/6 Realizări) și scorul total de puncte acumulit.
+
+Detalii: Un carusel de trofee 3D interactive pe care le poți roti în aer pentru a le vedea cerințele de deblocare.
+
+
+4. GHID DE NAVIGARE PRIN GESTURI (USER FLOW IN AR)
+Navigarea în GAMAR AR este complet tactilă și spațială, utilizând gesturile recunoscute de ochelarii AR:
+
+Gestul „Apasă în Aer” (Air Tap / Pinch):
+
+Cum se face: Apropie rapid degetul arătător de degetul mare în fața ochilor, privind spre elementul dorit.
+
+Utilizare: Folosește-l pentru a schimba jocul activ (apasă pe tab-ul FORTNITE sau CALL OF DUTY) sau pentru a deschide meniul de Filter.
+
+Gestul de „Glisare” (Swipe / Wave):
+
+Cum se face: Mișcă mâna spre stânga sau spre dreapta în fața unui panou.
+
+Utilizare: Folosește-l în panoul Match History pentru a schimba meciurile din istoric sau în panoul Achievements pentru a răsfoi galeria de trofee.
+
+Interacțiunea directă cu Obiecte 3D (Direct Grab/Touch):
+
+Cum se face: Întinde mâna fizic și „atinge” trofeul holografic care plutește în cameră.
+
+Utilizare: Când deblochezi o realizare, trofeul apare în format 3D în mijlocul camerei. Atinge-l pentru a-ți revendica punctele.
+
+
+5. DEPANARE RAPIDĂ (TROUBLESHOOTING)
+Problemă: Panourile AR îmi acoperă jocul de pe monitor.
+
+Soluție: Privește marginea de sus a panoului deranjant, fă gestul „Pinch and Hold” (prinde și ține) și mută fizic panoul mai în stânga sau mai în dreapta pentru a elibera centrul monitorului.
+
+Problemă: Gesturile mele nu sunt înregistrate.
+
+Soluție: Asigură-te că mâna ta se află în câmpul vizual al camerelor ochelarilor AR (nu prea jos, sub birou) și că lumina din cameră este suficient de puternică.
+
+Problemă: Statusul aplicației arată "OFFLINE".
+
+Soluție: Asigură-te că jocul (Fortnite/CoD) rulează pe PC/Consolă și că ai pornit conexiunea locală din setările ochelarilor.
+

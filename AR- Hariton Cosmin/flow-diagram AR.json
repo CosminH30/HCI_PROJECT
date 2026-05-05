@@ -1,0 +1,207 @@
+[
+  {
+    "id": "node_home",
+    "type": "node",
+    "screen": "Home Dashboard",
+    "actions": [
+      {
+        "id": "action_home_stats",
+        "label": "Apasă pe Statistics",
+        "connections": [
+          {
+            "targetNodeId": "node_stats",
+            "targetAnchor": "top"
+          }
+        ]
+      },
+      {
+        "id": "action_home_history",
+        "label": "Apasă pe Match History",
+        "connections": [
+          {
+            "targetNodeId": "node_history",
+            "targetAnchor": "top"
+          }
+        ]
+      },
+      {
+        "id": "action_home_achievements",
+        "label": "Apasă pe Achievements",
+        "connections": [
+          {
+            "targetNodeId": "node_achievements",
+            "targetAnchor": "top"
+          }
+        ]
+      },
+      {
+        "id": "action_home_cod",
+        "label": "Comută pe COD",
+        "connections": [
+          {
+            "targetNodeId": "node_home",
+            "targetAnchor": "bottom"
+          }
+        ]
+      },
+      {
+        "id": "action_home_fortnite",
+        "label": "Comută pe Fortnite",
+        "connections": [
+          {
+            "targetNodeId": "node_home",
+            "targetAnchor": "bottom"
+          }
+        ]
+      }
+    ],
+    "x": 400,
+    "y": 100
+  },
+  {
+    "id": "node_stats",
+    "type": "node",
+    "screen": "Statistics",
+    "actions": [
+      {
+        "id": "action_stats_home",
+        "label": "Apasă pe Home",
+        "connections": [
+          {
+            "targetNodeId": "node_home",
+            "targetAnchor": "left"
+          }
+        ]
+      },
+      {
+        "id": "action_stats_filter",
+        "label": "Apasă pe Filter",
+        "connections": [
+          {
+            "targetNodeId": "node_filter",
+            "targetAnchor": "top"
+          }
+        ]
+      }
+    ],
+    "x": 63,
+    "y": 382
+  },
+  {
+    "id": "node_history",
+    "type": "node",
+    "screen": "Match History",
+    "actions": [
+      {
+        "id": "action_history_home",
+        "label": "Apasă pe Home",
+        "connections": [
+          {
+            "targetNodeId": "node_home",
+            "targetAnchor": "left"
+          }
+        ]
+      },
+      {
+        "id": "action_history_filter",
+        "label": "Apasă pe Filter",
+        "connections": [
+          {
+            "targetNodeId": "node_filter",
+            "targetAnchor": "top"
+          }
+        ]
+      },
+      {
+        "id": "action_history_prev",
+        "label": "Apasă Săgeată Stânga",
+        "connections": [
+          {
+            "targetNodeId": "node_history",
+            "targetAnchor": "bottom"
+          }
+        ]
+      },
+      {
+        "id": "action_history_next",
+        "label": "Apasă Săgeată Dreapta",
+        "connections": [
+          {
+            "targetNodeId": "node_history",
+            "targetAnchor": "bottom"
+          }
+        ]
+      }
+    ],
+    "x": 450,
+    "y": 450
+  },
+  {
+    "id": "node_achievements",
+    "type": "node",
+    "screen": "Achievements",
+    "actions": [
+      {
+        "id": "action_achieve_home",
+        "label": "Apasă pe Home",
+        "connections": [
+          {
+            "targetNodeId": "node_home",
+            "targetAnchor": "right"
+          }
+        ]
+      },
+      {
+        "id": "action_achieve_filter",
+        "label": "Apasă pe Filter",
+        "connections": [
+          {
+            "targetNodeId": "node_filter",
+            "targetAnchor": "top"
+          }
+        ]
+      },
+      {
+        "id": "action_achieve_scroll",
+        "label": "Glisează trofee",
+        "connections": [
+          {
+            "targetNodeId": "node_achievements",
+            "targetAnchor": "bottom"
+          }
+        ]
+      }
+    ],
+    "x": 800,
+    "y": 450
+  },
+  {
+    "id": "node_filter",
+    "type": "node",
+    "screen": "Filter Modal",
+    "actions": [
+      {
+        "id": "action_filter_apply",
+        "label": "Selectează joc și aplică",
+        "connections": [
+          {
+            "targetNodeId": "node_home",
+            "targetAnchor": "bottom"
+          }
+        ]
+      },
+      {
+        "id": "action_filter_close",
+        "label": "Închide (X)",
+        "connections": [
+          {
+            "targetNodeId": "node_home",
+            "targetAnchor": "bottom"
+          }
+        ]
+      }
+    ],
+    "x": 450,
+    "y": 800
+  }
+]
