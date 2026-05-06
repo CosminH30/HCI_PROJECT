@@ -1,0 +1,117 @@
+[
+  {
+    "id": "node-start",
+    "type": "node",
+    "screen": "User Playing Game (Phone)",
+    "actions": [
+      {
+        "id": "action-start-detect",
+        "label": "Game Active",
+        "connections": [
+          {
+            "targetId": "node-detection",
+            "fromPosition": "right",
+            "toPosition": "left"
+          }
+        ]
+      }
+    ],
+    "x": 10,
+    "y": 109
+  },
+  {
+    "id": "node-detection",
+    "type": "node",
+    "screen": "Enemy Detected (Mobile System)",
+    "actions": [
+      {
+        "id": "action-send-alert",
+        "label": "Send Alert to Watch",
+        "connections": [
+          {
+            "targetId": "node-alert",
+            "fromPosition": "right",
+            "toPosition": "left"
+          }
+        ]
+      }
+    ],
+    "x": 319,
+    "y": 353
+  },
+  {
+    "id": "node-alert",
+    "type": "node",
+    "screen": "Smartwatch Vibrates + Alert Appears",
+    "actions": [
+      {
+        "id": "action-glance",
+        "label": "Glance (No Interaction)",
+        "connections": [
+          {
+            "targetId": "node-reaction",
+            "fromPosition": "right",
+            "toPosition": "left"
+          }
+        ]
+      },
+      {
+        "id": "action-tap",
+        "label": "Tap for Details",
+        "connections": [
+          {
+            "targetId": "node-details",
+            "fromPosition": "bottom",
+            "toPosition": "top"
+          },
+          {
+            "targetId": "node-details",
+            "fromPosition": "right",
+            "toPosition": "left"
+          }
+        ]
+      }
+    ],
+    "x": 625,
+    "y": 23
+  },
+  {
+    "id": "node-details",
+    "type": "node",
+    "screen": "Detailed Alert (Direction + Distance)",
+    "actions": [
+      {
+        "id": "action-return",
+        "label": "Auto Return",
+        "connections": [
+          {
+            "targetId": "node-reaction",
+            "fromPosition": "right",
+            "toPosition": "bottom"
+          },
+          {
+            "targetId": "node-reaction",
+            "fromPosition": "right",
+            "toPosition": "left"
+          }
+        ]
+      }
+    ],
+    "x": 917,
+    "y": 386
+  },
+  {
+    "id": "node-reaction",
+    "type": "node",
+    "screen": "User Reacts in Game",
+    "actions": [
+      {
+        "id": "action-end",
+        "label": "Continue Gameplay",
+        "connections": []
+      }
+    ],
+    "x": 1022,
+    "y": 10
+  }
+]
