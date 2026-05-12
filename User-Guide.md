@@ -572,3 +572,94 @@ This smartwatch interface is **gesture-based** and does not use keyboard shortcu
 - **Mouse clicks** (buttons)
 - **Mouse drag** (sliders, swipe simulation)
 - **Touch gestures** (on touch-enabled devices)
+
+
+--------------------------------------------------------------------AR
+
+
+AR Gaming Stats Tracker: The Official User Guide
+Welcome to the future of performance monitoring. The AR Gaming Stats Tracker is a spatial computing application designed to provide a holographic, immersive overview of your Fortnite and Call of Duty career. This guide will help you master the interface, navigation, and data analysis features.
+
+1. Interface Fundamentals
+The application utilizes a Zero-Scroll Architecture, meaning all information is displayed within your immediate field of vision.
+
+Glassmorphism: Navigation panels and data cards are semi-transparent with a background blur, allowing you to see your physical surroundings while maintaining data legibility.
+
+Depth Layering: Information is stacked on the Z-axis. Important numbers and icons "float" 20px in front of their containers to create a 3D holographic effect.
+
+Color Coding:
+
+Neon Red (#ff0844): Active selections, victories, and primary actions.
+
+Cyan (#00d4ff): Hover states, interactive highlights, and secondary metrics.
+
+Muted Gray: Inactive elements or background labels.
+
+2. Navigation & Interaction
+You can interact with the tracker using three distinct methods:
+
+Gesture Controls
+Air Tap: Point your index finger and pinch your thumb together to select buttons or switch games.
+
+Horizontal Swipe: Move your hand left or right to browse through the Match History or Awards carousels.
+
+Pinch-Drag: Grab a carousel by pinching and move it manually for precise scrolling.
+
+Eye-Tracking (Hands-Free)
+Dwell Selection: Look at any button for 0.5 seconds to trigger a selection. The element will glow cyan before confirming.
+
+Smooth Pursuit: Focus on the edges of a carousel to scroll in that direction automatically.
+
+Voice Commands
+Simply say "Go to Stats" or "Show Call of Duty" to navigate instantly.
+
+Use commands like "Filter by last 30 days" to update your dashboard hands-free.
+
+3. Screen Modules
+Home: Your Command Center
+The Home screen provides an instant snapshot of your current status.
+
+Game Selector: Use the top buttons to switch between Fortnite and COD. All data on the screen will update within 300ms.
+
+Main Metrics: View your total Kills, Wins, K/D Ratio, and Win Rate.
+
+Session Tracking: Monitor your "Matches Today" and total "Play Time" for the current session.
+
+Stats: Deep Performance Analysis
+This screen is for players looking to improve their competitive edge.
+
+Time Filters: Toggle between 7 days, 30 days, or All Time to see how your skills are evolving.
+
+Trend Graphs: View bar charts for Accuracy and Win Rate. Red/Cyan gradients indicate whether you are currently above or below your career average.
+
+Detailed Stats: Access niche data such as your Longest Kill (meters), Best Streak, and Season Rank.
+
+History: Match Logs
+Review your previous performances in a swipeable horizontal layout.
+
+Match Cards: Each card displays the game mode, placement (e.g., #1 Victory Royale), and individual match stats.
+
+Results Filter: Quickly toggle the view to show "Only Wins" to analyze your successful strategies.
+
+Awards: Career Milestones
+Track your progress toward 100% completion.
+
+Achievement Cards: Locked achievements are dimmed and show a progress bar (e.g., 67/100 headshots).
+
+Point System: Earn points for every unlocked award to increase your overall "Gamar" rank.
+
+4. Hardware & Environment Tips
+For the best experience, follow these environmental guidelines:
+
+Lighting: Ensure your room is well-lit. Shadows or direct sunlight can interfere with gesture recognition and eye-tracking accuracy.
+
+Viewing Distance: Position the interface approximately 40-60cm from your eyes. Use the "Scale" setting in the menu if the text feels too small.
+
+Performance: The app targets 60-90 FPS. If you experience lag, disable the "Background Particles" in the settings menu to save GPU resources.
+
+5. Troubleshooting
+Filters not updating: If a timeframe filter fails to refresh, check your internet connection or toggle the Game Selector back and forth to force a data fetch.
+
+Gesture lag: Ensure your hands are within the camera’s field of view. Avoid wearing high-reflectivity jewelry which can confuse the infrared sensors.
+
+Blurry Interface: Ensure your AR headset lenses are clean and that your browser supports backdrop-filter (Chrome/Edge 90+ recommended).
