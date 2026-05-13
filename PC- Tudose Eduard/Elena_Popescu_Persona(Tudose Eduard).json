@@ -1,0 +1,16 @@
+{
+  "name": "Elena Popescu",
+  "type": "Primary",
+  "image": "data:image/webp;base64,... (You can leave this as a placeholder or generate a new base64 image)",
+  "dateOfBirth": "August 22, 1998",
+  "gender": "Female",
+  "location": "Iasi",
+  "workplace": "Junior QA Tester",
+  "school": "Fii UAIC",
+  "technologyLevel": "Advanced",
+  "goals": "Use the wide PC monitor to view highly detailed post-match analytics and heatmaps to actively improve her K/D ratio.\nSeamlessly alt-tab between her active game and the GAMAR desktop dashboard without losing focus.",
+  "frustrations": "Mobile screens are too small to read complex accuracy trend graphs comfortably.\nHates it when companion apps don't have a native 'Dark Mode' on Windows, which blinds her during late-night gaming sessions.\nDislikes having to pick up her phone to check stats while her hands are already on the keyboard and mouse.",
+  "scenarios": "Elena just finished a sweaty ranked match in Call of Duty. Instead of reaching for her phone, she simply moves her mouse to her second monitor where the GAMAR PC App is open, allowing her to immediately analyze her headshot percentage and win rate in full-screen detail.",
+  "otherDetails": "Highly competitive, analytical, prefers multi-monitor setups.",
+  "birthDateISO": "1998-08-22T21:00:00.000Z"
+}

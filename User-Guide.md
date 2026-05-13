@@ -663,3 +663,91 @@ Filters not updating: If a timeframe filter fails to refresh, check your interne
 Gesture lag: Ensure your hands are within the camera’s field of view. Avoid wearing high-reflectivity jewelry which can confuse the infrared sensors.
 
 Blurry Interface: Ensure your AR headset lenses are clean and that your browser supports backdrop-filter (Chrome/Edge 90+ recommended).
+
+# PC Desktop Application 
+
+## Table of Contents
+1. [Introduction to the Desktop Experience](#introduction)
+2. [Interface Overview & Philosophy](#interface-overview)
+3. [Sidebar Navigation](#sidebar-navigation)
+4. [Home Dashboard (Command Center)](#home-dashboard)
+5. [Deep Dive: Statistics & Analytics](#statistics)
+6. [Match History Log](#match-history)
+7. [Awards & Achievements](#awards)
+8. [Keyboard Shortcuts](#keyboard-shortcuts)
+9. [Multi-Monitor Optimization](#multi-monitor)
+
+---
+
+## 1. Introduction to the Desktop Experience <a name="introduction"></a>
+Welcome to the GAMAR PC Desktop Application. While our Mobile app is designed for quick glances and our Smartwatch app acts as a real-time tactical assistant, the PC Desktop app is built for **deep analytics and post-match review**. 
+
+Taking full advantage of widescreen 16:9 monitors, the PC app allows competitive players to view complex trend graphs, heatmaps, and detailed match histories side-by-side without the constraint of small screens or scrolling.
+
+## 2. Interface Overview & Philosophy <a name="interface-overview"></a>
+The PC application utilizes a **Fixed Sidebar Architecture**. This ensures that navigation is always available, while the majority of the screen space is dedicated to data visualization.
+
+*   **Dark Mode Native:** To protect eye strain during late-night gaming sessions, the app is strictly Dark Mode (Deep Navy `#0A0E17`).
+*   **Visual Feedback:** Active tabs and interactive elements utilize a glowing Neon Red (`#FF003C`) drop-shadow, providing clear feedback on your current location within the app.
+*   **Data Density:** We utilize a "Center Stage Widget" layout, allowing multiple data points (e.g., Win Rate and Accuracy) to be compared simultaneously.
+
+## 3. Sidebar Navigation <a name="sidebar-navigation"></a>
+Located permanently on the left side of your screen, the sidebar is your primary control hub.
+*   **Brand Header:** The glowing GAMAR logo confirms system connection.
+*   **Home:** Returns you to the high-level Command Center.
+*   **Stats:** Opens the detailed analytics and charting tools.
+*   **History:** Accesses your chronological match log.
+*   **Awards:** Opens the achievement showcase grid.
+*   **User Profile (Bottom):** Displays your current username, avatar, and live server status (Green = Online/Syncing).
+
+## 4. Home Dashboard (Command Center) <a name="home-dashboard"></a>
+The Home screen is the first thing you see and provides a macro-view of your gaming session.
+
+### Game Selection Toggle
+At the top of the dashboard, select between your linked titles (e.g., **FORTNITE** or **CALL OF DUTY**). Clicking a title immediately filters all widgets on the dashboard to reflect data for that specific game. The active game glows Neon Red.
+
+### Dashboard Widgets
+The main canvas is divided into clearly outlined data cards (indicated by cyan corner brackets):
+*   **Player Profile Widget:** Shows your rank (e.g., Diamond III) and username.
+*   **Lifetime Stats Row:** Quick-glance numbers for Total Kills, Total Wins, K/D Ratio, and Overall Win Rate.
+*   **Session Stats Row:** Tracks data strictly for the current 24-hour period, including "Matches Played Today" and "Total Play Time".
+
+## 5. Deep Dive: Statistics & Analytics <a name="statistics"></a>
+The Stats screen is the core feature of the PC application. It replaces the high-level widgets with large, detailed graphs for granular analysis.
+
+### Timeframe Filtering
+In the top right corner of the Stats screen, use the dropdown menu to filter the graphs by:
+*   Last 24 Hours
+*   Last 7 Days
+*   Last 30 Days
+*   All Time (Lifetime)
+
+### Visualization Charts
+*   **Win Rate vs. Performance Graph:** A large line graph tracking your daily placement and win rate over the selected timeframe. Use your mouse to hover over specific nodes on the line graph to see exact data points for a specific day.
+*   **Accuracy Breakdown:** A horizontal bar chart detailing your hit-marker distribution. It visually separates Headshots (highest value), Body Shots, and Leg Shots, allowing you to identify mechanical weaknesses in your aim.
+
+## 6. Match History Log <a name="match-history"></a>
+Unlike the condensed mobile view, the PC History screen displays a wide, spreadsheet-style list of your recent games.
+
+*   **List Columns:** Each row represents a single match, displaying Date, Game Mode (Ranked/Unranked), Placement/Result, Kills, Deaths, K/D Ratio, and Match Duration.
+*   **Color Coding:** Victories are highlighted in Neon Green, while Defeats are marked in muted Red, allowing you to instantly gauge your recent performance streak by just scrolling.
+*   **Click-to-Expand:** Clicking on any individual row opens a side-panel with the specific statistics and timeline of that exact match.
+
+## 7. Awards & Achievements <a name="awards"></a>
+The Awards screen acts as your digital trophy cabinet.
+*   **Overall Progress:** A large, horizontal progress bar spans the top of the screen, tracking your total GAMAR score and completion percentage.
+*   **Achievement Grid:** Awards are displayed in an 8-panel grid. 
+    *   *Unlocked:* Displayed at full opacity with a glowing border.
+    *   *Locked:* Displayed at 30% opacity (dimmed) with a grey outline. Hovering over a locked award reveals the specific requirements needed to unlock it.
+
+## 8. Keyboard Shortcuts <a name="keyboard-shortcuts"></a>
+To maintain flow without leaving your keyboard, the PC app supports the following hotkeys:
+*   `Ctrl + 1`: Navigate to Home
+*   `Ctrl + 2`: Navigate to Stats
+*   `Ctrl + 3`: Navigate to History
+*   `Ctrl + 4`: Navigate to Awards
+*   `Ctrl + F`: Quick-filter Match History
+*   `Alt + Tab`: The GAMAR app is optimized to run seamlessly in the background and respects Windows Focus Assist, ensuring no pop-ups interrupt your full-screen gameplay.
+
+## 9. Multi-Monitor Optimization <a name="multi-monitor"></a>
+The GAMAR Desktop application is specifically designed for users with dual-monitor setups. It uses a responsive scaling engine to ensure that text and graphs remain crisp whether displayed on a standard 1080p side-monitor or a 4K vertical display. Live syncing ensures that as soon as a match ends on your primary gaming monitor, the dashboard on your secondary monitor updates the data instantly without requiring a manual refresh.
